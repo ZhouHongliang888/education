@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="index.css">
+    <style>
+        h1 {font-size:40px;}
+        p {font-size:30px;}
+        </style>
+    <nav>
+          <ul>
+            <li><a href="index.html">home page</a></li>
+            <li><a href="b.html">About us</a></li>
+            <li><a href="c.html">contact us</a></li>
+           </ul>
+        </nav>
+    <link rel="stylesheet" href="./style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img src="v.png"  width="200" height="200">
+    <form action="/demo/demo_form.asp">
+        English:<br>
+        <input type="text" name="firstname" value="Mickey">
+        <br>English:<br>
+        <input type="text" name="firstname" value="Mickey">
+        <br>English:<br>
+        <input type="text" name="firstname" value="Mickey">
+        <br>
+        Number:<br>
+        <input type="text" name="lastname" value="Mouse">
+        <br><br>
+        <input type="submit" value="Submit">
+        </form> 
+    <p>college entrance examination preparation information: </p>
+<table>
+<tr>
+<td>2022 Zhejiang college entrance examination latest information</td>
+<td>2022 Jinhua College Entrance Examination latest information</td>
+<td>Latest news of 2022 Beijing college entrance examination</td>
+</tr>
+<tr>
+<td>2022 Jiangxi college entrance examination latest information</td>
+<td>2022 Guangdong college entrance examination latest information</td>
+<td>2022 Fujian college entrance examination latest information</td>
+</tr>
+</table>
+<h2 class="w3-center">Introduction to education group</h2>
+
+<div class="w3-content w3-display-container">
+
+    <img class="mySlides" src="d.png" style="width:100%">
+    <img class="mySlides" src="z.png" style="width:100%">
+    <img class="mySlides" src="x.png" style="width:100%">
+
+    <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+    <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+<script>
+    var slideIndex = 1;
+    showDivs(slideIndex);
+
+    function plusDivs(n) {
+        showDivs(slideIndex += n);
+    }
+
+    function showDivs(n) {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        if (n > x.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = x.length}
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        x[slideIndex-1].style.display = "block";
+    }
+</script>
+    <head>
+        <style>
+        body {
+          background-image: url("a.png");
+        }
+        </style>
+        </head>
+     <img src="e.png"  width="1500" height="360">
+            <img src="k.png"  width="1500" height="360">
+            <img src="l.png"  width="1500" height="360">
+
+
+
+
+        <button id="clab" type="button" onclick="myFunction()">
+
+                About us
+
+
+</body>
+</html>

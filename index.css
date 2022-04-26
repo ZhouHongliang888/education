@@ -1,0 +1,35 @@
+table {
+  border-collapse: collapse;
+  margin: auto;
+  vertical-align: middle;
+  background-color: rgb(251, 191, 224);
+}
+th,td {
+  padding: 32px;
+  border:1px solid black;
+ }
+.cell-highlight{
+  color: blue;
+  font-weight:bold;
+}
+caption {
+  font-weight: bold;
+  font-size: 36px;
+  text-align: center;
+  color: rgb(14, 227, 220);
+}
+
+tbody th {
+  width: 40%;}
+  th {font-weight: 800;
+      font-size: large;
+      color: rgb(28, 170, 156);
+  }
+  .pngthumbnail 
+{
+    float:left;
+    width:110px;
+    height:90px;
+    margin:5px;
+}
+  
